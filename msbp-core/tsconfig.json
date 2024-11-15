@@ -18,19 +18,10 @@
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
-    "lib": [
-      "ES2022",
-      "dom"
-    ]
+    "lib": ["ES2022", "dom"]
   },
-  "include": [
-    "src",
-    "eslint.config.mjs",
-    ".angular"
-  ],
-  "files": [
-    "eslint.config.mjs"
-  ],
+  "include": ["src", "eslint.config.mjs", ".angular"],
+  "files": ["eslint.config.mjs"],
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
