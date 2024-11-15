@@ -3,6 +3,7 @@
         "tomoki1207.pdf",
         "shahilkumar.docxreader",
         "ms-vscode.powershell",
-        "dbaeumer.vscode-eslint"
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
     ]
 }
