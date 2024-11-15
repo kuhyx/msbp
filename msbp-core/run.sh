@@ -12,5 +12,8 @@ pnpm install
 # Build the Angular website
 pnpm build
 
+# Move the dist folder one level up
+mv dist ../dist
+
 # Serve the Angular website
 pnpm start
