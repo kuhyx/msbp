@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { RouterOutlet } from '@angular/router';
-
 @Component({
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, MatSlideToggleModule],
   selector: 'app-root',
   standalone: true,
   styleUrl: './app.component.scss',

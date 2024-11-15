@@ -2,6 +2,8 @@
 import eslint from "@eslint/js";
 import tseslint from "typescript-eslint";
 
+const MAX_FUNCTION_LENGTH = 20, MAX_LINES = 200;
+
 export default tseslint.config(
   eslint.configs.all,
   ...tseslint.configs.all,
@@ -19,6 +21,8 @@ export default tseslint.config(
   {
     rules: {
       "@typescript-eslint/consistent-type-imports": "off",
+      "max-lines": ["error", MAX_LINES],
+      "max-lines-per-function": ["error", MAX_FUNCTION_LENGTH],
       "new-cap": "off",
     },
   },
