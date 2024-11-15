@@ -1,9 +1,9 @@
 <mat-toolbar class="toolbar" color="primary" id="toolbar">
-  <img src="../assets/logo.webp" alt="biuro projektów" height="80">
-  <span class="spacer"></span>
-  <button mat-button>O NAS</button>
-  <button mat-button>USŁUGI</button>
-  <button mat-button>REALIZACJE</button>
-  <button mat-button>WSPÓŁPRACA</button>
-  <button mat-button>KONTAKT</button>
-</mat-toolbar>
+    <img src="../assets/logo.webp" alt="biuro projektów" height="80">
+    <span class="spacer"></span>
+    <button mat-button [routerLink]="[]" fragment="o-nas">O NAS</button>
+    <button mat-button [routerLink]="[]" fragment="uslugi">USŁUGI</button>
+    <button mat-button [routerLink]="[]" fragment="realizacje">REALIZACJE</button>
+    <button mat-button [routerLink]="[]" fragment="wspolpraca">WSPÓŁPRACA</button>
+    <button mat-button [routerLink]="[]" fragment="kontakt">KONTAKT</button>
+  </mat-toolbar>

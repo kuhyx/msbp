@@ -5,10 +5,11 @@ import { MatSidenavContainer } from '@angular/material/sidenav';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { RouterOutlet } from '@angular/router';
+import { ServicesSectionComponent } from './services-section/services-section.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 
 @Component({
-  imports: [RouterOutlet, MatSlideToggleModule, MatSidenavContainer, MatToolbarModule, MatButton, AboutUsComponent, ToolbarComponent],
+  imports: [RouterOutlet, ServicesSectionComponent, MatSlideToggleModule, MatSidenavContainer, MatToolbarModule, MatButton, AboutUsComponent, ToolbarComponent],
   selector: 'app-root',
   standalone: true,
   styleUrl: './app.component.scss',
