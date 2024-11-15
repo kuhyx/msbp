@@ -4,6 +4,8 @@
         "shahilkumar.docxreader",
         "ms-vscode.powershell",
         "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "jock.svg",
+        "amatiasq.sort-imports"
     ]
 }
