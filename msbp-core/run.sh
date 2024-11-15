@@ -4,7 +4,7 @@
 pnpm i
 
 # Upgrade packages using npm-check-updates, excluding typescript
-npx npm-check-updates -u --reject typescript
+npx npm-check-updates -u --reject typescript --reject eslint
 
 # Install the updated packages
 pnpm install
