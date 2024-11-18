@@ -16,4 +16,4 @@ pnpm build
 mv -rf dist ../dist
 
 # Serve the Angular website
-pnpm start
+npx ng serve --host 0.0.0.0
