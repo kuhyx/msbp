@@ -1,15 +1,22 @@
 import { AboutUsComponent } from './about-us/about-us.component';
+import { RealizationsComponent } from './realizations/realizations.component';
 import { Component } from '@angular/core';
-import { MatButton } from '@angular/material/button';
 import { MatSidenavContainer } from '@angular/material/sidenav';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { RouterOutlet } from '@angular/router';
 import { ServicesSectionComponent } from './services-section/services-section.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { WorkComponent } from './work/work.component';
+import { ContactComponent } from './contact/contact.component';
+import { WorkedWithComponent } from './worked-with/worked-with.component';
 
 @Component({
-  imports: [RouterOutlet, ServicesSectionComponent, MatSlideToggleModule, MatSidenavContainer, MatToolbarModule, MatButton, AboutUsComponent, ToolbarComponent],
+  imports: [RouterOutlet, ServicesSectionComponent, MatSlideToggleModule, MatSidenavContainer, MatToolbarModule, AboutUsComponent, ToolbarComponent, RealizationsComponent,
+  WorkComponent,
+  ContactComponent,
+  WorkedWithComponent
+  ],
   selector: 'app-root',
   standalone: true,
   styleUrl: './app.component.scss',
