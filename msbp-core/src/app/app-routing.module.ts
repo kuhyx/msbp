@@ -6,7 +6,7 @@ import { RealizationsComponent } from './realizations/realizations.component';
 
 const routes: Routes = [
   { component: AboutUsComponent, path: 'o-nas'},
-  { component: RealizationsComponent, path: 'realizacje'},
+  { component: RealizationsComponent, path: 'wybrane projekty'},
 ];
 
 @NgModule({
