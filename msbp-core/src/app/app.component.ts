@@ -10,9 +10,10 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { WorkComponent } from './work/work.component';
 import { ContactComponent } from './contact/contact.component';
 import { WorkedWithComponent } from './worked-with/worked-with.component';
+import { TeamComponent } from './team/team.component';
 
 @Component({
-  imports: [RouterOutlet, ServicesSectionComponent, MatSlideToggleModule, MatSidenavContainer, MatToolbarModule, AboutUsComponent, ToolbarComponent, RealizationsComponent,
+  imports: [RouterOutlet, ServicesSectionComponent, MatSlideToggleModule, MatSidenavContainer, MatToolbarModule, AboutUsComponent, ToolbarComponent, RealizationsComponent, TeamComponent,
   WorkComponent,
   ContactComponent,
   WorkedWithComponent
