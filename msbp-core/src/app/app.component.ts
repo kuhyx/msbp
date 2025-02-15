@@ -25,4 +25,5 @@ import { TeamComponent } from './team/team.component';
 })
 export class AppComponent {
   public title = 'msbp-core';
+  public currentYear = new Date().getFullYear();
 }
