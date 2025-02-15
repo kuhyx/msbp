@@ -10,4 +10,13 @@ import { RouterModule } from '@angular/router';
   styleUrls: ['./toolbar.component.scss'],
   templateUrl: './toolbar.component.html'
 })
-export class ToolbarComponent {}
+export class ToolbarComponent {
+  scroll(element_name: string) {
+    const element = document.getElementById(element_name);
+    if (element) {
+      element.scrollIntoView({behavior: 'smooth'});
+    } else {
+      console.error(`Element with id ${element_name} not found`);
+    }
+  }
+}
