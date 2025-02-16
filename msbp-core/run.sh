@@ -10,7 +10,7 @@ npx npm-check-updates -u --reject typescript --reject eslint
 pnpm install
 
 # Build the Angular website
-npx ng build --output-path=dist
+npx ng build
 
 # Move the dist folder one level up
 mv -rf dist ../dist
