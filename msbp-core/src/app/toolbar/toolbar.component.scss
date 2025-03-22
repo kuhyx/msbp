@@ -6,25 +6,19 @@
     padding: 50px;
 }
 
-.mat-mdc-icon-button:hover .mat-mdc-button-persistent-ripple::before {
-  opacity: 1;
-  background-color: red;
+.custom-button {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
-.mat-mdc-button:hover,
-.mat-mdc-outlined-button:hover,
-.mat-mdc-raised-button:hover,
-.mat-mdc-flat-button:hover {
-  background-color: transparent !important;
-}
-
-.mat-mdc-button.no-hover:hover,
-.mat-mdc-outlined-button.no-hover:hover,
-.mat-mdc-raised-button.no-hover:hover {
-  background-color: inherit !important; 
-}
-
-/* For specific button instance */
-.my-button:hover {
-  background-color: transparent !important;
+.custom-button:hover {
+    cursor: pointer;
+    background-color: transparent;
 }
