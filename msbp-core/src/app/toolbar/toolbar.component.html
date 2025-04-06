@@ -1,10 +1,12 @@
 <mat-toolbar class="toolbar" color="primary" id="toolbar">
-    <img src="assets/logo.webp" alt="biuro projektów" height="80">
+    <img src="assets/logo.webp" alt="biuro projektów" style="max-height: 80px; height: min(8vh, 80px); width: auto;">
     <span class="spacer"></span>
+    <div class="mobile-grid"> 
     <button  class="custom-button" [routerLink]="['/']" fragment="o-nas" (click)="scroll('o-nas')">O NAS</button>
     <button  class="custom-button" [routerLink]="['/']" fragment="zespol" (click)="scroll('zespol')">ZESPÓŁ</button>
     <button  class="custom-button" [routerLink]="['/']" fragment="uslugi" (click)="scroll('uslugi')">USŁUGI</button>
     <button  class="custom-button" [routerLink]="['/']" fragment="wybrane projekty" (click)="scroll('wybrane projekty')">WYBRANE PROJEKTY</button>
     <button  class="custom-button" [routerLink]="['/']" fragment="wspolpraca" (click)="scroll('wspolpraca')">WSPÓŁPRACA</button>
     <button  class="custom-button" [routerLink]="['/']" fragment="kontakt" (click)="scroll('kontakt')">KONTAKT</button>
+    </div>
   </mat-toolbar>

@@ -16,4 +16,4 @@ npx ng build --output-path ../docs
 mv -rf dist ../dist
 
 # Serve the Angular website
-npx ng serve --host 0.0.0.0
+npx ng serve --host 0.0.0.0 --ssl

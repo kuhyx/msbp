@@ -16,9 +16,51 @@
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
+
+
 }
 
 .custom-button:hover {
     cursor: pointer;
     background-color: transparent;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+    .toolbar {
+        padding: 15px;
+    }
+    
+    .custom-button {
+        font-size: 14px;
+        margin: 2px 1px;
+        padding: 8px 12px;
+    }
+}
+
+/* Extra small devices */
+@media screen and (max-width: 375px) {
+    .toolbar {
+        padding: 0px 0px;
+    }
+    
+    .custom-button {
+        font-size: 12px;
+        margin: 0px;
+        padding: 3px 4px;
+    }
+}
+
+
+
+@media (max-width: 375px) {
+    .mobile-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+    }
+    
+    .custom-button {
+        font-size: 8px;
+    }
 }
